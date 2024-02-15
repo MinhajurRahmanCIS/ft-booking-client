@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FlightListing = ({ flight }) => {
-    const { image, departureCity, destination, departureTime, arrivalTime, price, airline } = flight;
+    const { _id, image, departureCity, destination, departureTime, arrivalTime, price, airline } = flight;
     return (
         <div className="card rounded-none bg-base-100 shadow-xl">
             <figure><img className='h-60 w-full' src={image} alt="flights" /></figure>
@@ -16,7 +17,7 @@ const FlightListing = ({ flight }) => {
                 <p><strong>Arrival Time : </strong>{arrivalTime}</p>
                 <p><strong>Price : </strong>${price}</p>
                 <div className="card-actions justify-end">
-                    <button className='btn btn-info btn-md'>Book</button>
+                    <Link to={`/checkout/${_id}`} className='btn btn-info btn-md'>Book</Link>
                 </div>
             </div>
         </div>
