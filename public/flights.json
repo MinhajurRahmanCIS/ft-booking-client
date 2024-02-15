@@ -1,0 +1,52 @@
+[
+    {
+        "_id":{"$oid":"65cd1636f450a4fbcf5f37b1"},
+        "departureCity": "New York",
+        "destination": "Los Angeles",
+        "departureTime": "2024-03-01 08:00:00",
+        "arrivalTime": "2024-03-01 11:00:00",
+        "airline": "Delta Airlines",
+        "price": 250.00,
+        "image": "https://www.gtaboom.com/wp-content/uploads/2016/01/ls2.jpg"
+    },
+    {
+        "_id":{"$oid":"65cd1636f450a4fbcf5f37b2"},
+        "departureCity": "Chicago",
+        "destination": "Miami",
+        "departureTime": "2024-03-02 12:30:00",
+        "arrivalTime": "2024-03-02 15:30:00",
+        "airline": "American Airlines",
+        "price": 180.50,
+        "image": "https://e0.pxfuel.com/wallpapers/646/215/desktop-wallpaper-lamborghini-victoria-in-pink-city-artist-gta-vice-city.jpg"
+    },
+    {
+        "_id":{"$oid":"65cd1636f450a4fbcf5f37b3"},
+        "departureCity": "San Francisco",
+        "destination": "Seattle",
+        "departureTime": "2024-03-03 10:45:00",
+        "arrivalTime": "2024-03-03 12:30:00",
+        "airline": "United Airlines",
+        "price": 150.25,
+        "image": "https://www.gtaboom.com/wp-content/uploads/2016/07/T46_041001_023.-Credit-Don-Wilson-Port-of-Seattle.jpg"
+    },
+    {
+        "_id":{"$oid":"65cd1636f450a4fbcf5f37b4"},
+        "departureCity": "Dallas",
+        "destination": "Denver",
+        "departureTime": "2024-03-04 09:15:00",
+        "arrivalTime": "2024-03-04 11:30:00",
+        "airline": "Southwest Airlines",
+        "price": 120.75,
+        "image": "https://mp1st.com/wp-content/uploads/2022/02/Dallas-Feature-RESIZED.jpg"
+    },
+    {
+        "_id":{"$oid":"65cd1636f450a4fbcf5f37b5"},
+        "departureCity": "Boston",
+        "destination": "Orlando",
+        "departureTime": "2024-03-05 14:00:00",
+        "arrivalTime": "2024-03-05 17:00:00",
+        "airline": "JetBlue Airways",
+        "price": 200.00,
+        "image": "https://marshallservices.it/wp-content/uploads/2017/03/Boston4.jpg"
+    }
+]
